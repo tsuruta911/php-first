@@ -1,7 +1,7 @@
 <?php
-$name="tsuruta";
+$name = "tsuruta";
 
-if($name="tsuruta") {
+if($name == "tsuruta") {
     echo "私は あなたの名前 です";
 }else{
     echo "あなたの名前ではありません";
@@ -18,7 +18,7 @@ echo $total;
 
 echo "\n";
 
-$fruits=array("apple","orange","banana","lemon","grape");
+$fruits = array("apple","orange","banana","lemon","grape");
 foreach($fruits as $fruit) {
     echo "". $fruit;
     echo "\n";

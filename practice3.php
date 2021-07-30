@@ -47,3 +47,5 @@ function add($a, $b){
  }
  
 echo max_array([5,2,3,9,10]);
+
+echo "hello" > php_practice;
