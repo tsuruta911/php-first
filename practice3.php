@@ -38,14 +38,10 @@ function add($a, $b){
  //どうしたらいいかわからない・・・・
     if($max_number < $a){
         $max_number = $a;
-    }elseif($max_number > $a){
-        $max_number;
     }
  }
 
  return $max_number;
  }
  
-echo max_array([5,2,3,9,10]);
-
-echo "hello" > php_practice;
+echo max_array(array(5,2,3,9,10));
